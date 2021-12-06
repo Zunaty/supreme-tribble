@@ -1,7 +1,5 @@
-namespace CatWorx.BadgeMaker
-{
-    class Employee
-    {
+namespace CatWorx.BadgeMaker {
+    class Employee {
         private string FirstName;
         private string LastName;
         private int ID;
