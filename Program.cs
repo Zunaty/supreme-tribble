@@ -1,21 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CatWorx.BadgeMaker {
-    class Program {
-        static void Main(string[] args) {
-            // This is our employee-getting code now
-            List<Employee> employees = GetEmployees();
-            Util.PrintEmployees(employees);
+namespace CatWorx.BadgeMaker
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Employee> employees = new List<Employee>();
+            employees = GetEmployees();
+
             Util.MakeCSV(employees);
+            Util.MakeBadges(employees);
         }
 
-        static List<Employee> GetEmployees() {
+        static List<Employee> GetEmployees()
+        {
             List<Employee> employees = new List<Employee>();
-            while (true) {
+            while (true)
+            {
                 Console.WriteLine("Please enter a first name: (leave empty to exit): ");
                 string firstName = Console.ReadLine();
-                if (firstName == "") {
+                if (firstName == "")
+                {
                     break;
                 }
 

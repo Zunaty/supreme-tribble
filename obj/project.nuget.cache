@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9bYiwQj0Id1AVyAKfjRUegJzYnRPpTm4isv5OwPcAPVE9tOPcU9/HbU/AH3/Sp1bv2WkDqINX+NKaom+Q7dbWw==",
+  "dgSpecHash": "sz257wn1LTtbnS3i78FY9wLHhP6kJLTK4JwA7gGMbyupu47D4utuHwigae250SRWd5gzo4hxNHwh7RXuOhEG9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Zartora\\Documents\\Coding\\soloProject\\CatWorx.BadgeMaker\\CatWorx.BadgeMaker.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Zartora\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Zartora\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
