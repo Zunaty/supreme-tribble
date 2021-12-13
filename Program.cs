@@ -8,6 +8,7 @@ namespace CatWorx.BadgeMaker
         static void Main(string[] args)
         {
             List<Employee> employees = new List<Employee>();
+            
             employees = GetEmployees();
 
             Util.MakeCSV(employees);
